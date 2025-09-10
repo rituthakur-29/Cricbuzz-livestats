@@ -1,6 +1,7 @@
 # pages/7_Scores_CRUD.py
 import os
 import streamlit as st
+import utils.path_setup  # ensures root path is available
 from utils.db_connection import run_query, execute_query
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))

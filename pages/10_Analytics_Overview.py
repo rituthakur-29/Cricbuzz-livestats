@@ -1,6 +1,7 @@
 # pages/10_Analytics_Overview.py
 import streamlit as st
 import pandas as pd
+import utils.path_setup  # ensures root path is available
 from utils.db_connection import run_query
 
 st.title("📈 Analytics Overview")

@@ -2,6 +2,7 @@
 import os
 import streamlit as st
 import plotly.express as px
+import utils.path_setup  # ensures root path is available
 from utils.db_connection import run_query
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
