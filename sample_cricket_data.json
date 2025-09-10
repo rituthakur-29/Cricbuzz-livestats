@@ -1,0 +1,80 @@
+{
+  "matches": [
+    {
+      "match_id": "1001",
+      "series": "India vs Australia ODI Series 2025",
+      "format": "ODI",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2025-09-05",
+      "teams": {
+        "team1": {
+          "name": "India",
+          "players": [
+            { "id": "IND01", "name": "Rohit Sharma", "role": "Batsman" },
+            { "id": "IND02", "name": "Virat Kohli", "role": "Batsman" },
+            { "id": "IND03", "name": "Jasprit Bumrah", "role": "Bowler" }
+          ]
+        },
+        "team2": {
+          "name": "Australia",
+          "players": [
+            { "id": "AUS01", "name": "David Warner", "role": "Batsman" },
+            { "id": "AUS02", "name": "Steve Smith", "role": "Batsman" },
+            { "id": "AUS03", "name": "Mitchell Starc", "role": "Bowler" }
+          ]
+        }
+      },
+      "status": "India won by 5 wickets",
+      "score": {
+        "team1": { "runs": 302, "wickets": 5, "overs": 48.2 },
+        "team2": { "runs": 298, "wickets": 9, "overs": 50.0 }
+      },
+      "player_stats": [
+        { "player_id": "IND01", "match_id": "1001", "runs": 95, "wickets": 0 },
+        { "player_id": "IND02", "match_id": "1001", "runs": 80, "wickets": 0 },
+        { "player_id": "IND03", "match_id": "1001", "runs": 10, "wickets": 2 },
+        { "player_id": "AUS01", "match_id": "1001", "runs": 120, "wickets": 0 },
+        { "player_id": "AUS02", "match_id": "1001", "runs": 70, "wickets": 0 },
+        { "player_id": "AUS03", "match_id": "1001", "runs": 5, "wickets": 3 }
+      ]
+    },
+    {
+      "match_id": "1002",
+      "series": "England vs Pakistan T20 Series 2025",
+      "format": "T20",
+      "venue": "Lord's, London",
+      "date": "2025-09-03",
+      "teams": {
+        "team1": {
+          "name": "England",
+          "players": [
+            { "id": "ENG01", "name": "Jos Buttler", "role": "Wicketkeeper" },
+            { "id": "ENG02", "name": "Ben Stokes", "role": "All-rounder" },
+            { "id": "ENG03", "name": "Jofra Archer", "role": "Bowler" }
+          ]
+        },
+        "team2": {
+          "name": "Pakistan",
+          "players": [
+            { "id": "PAK01", "name": "Babar Azam", "role": "Batsman" },
+            { "id": "PAK02", "name": "Shaheen Afridi", "role": "Bowler" },
+            { "id": "PAK03", "name": "Mohammad Rizwan", "role": "Wicketkeeper" }
+          ]
+        }
+      },
+      "status": "Match tied (England won Super Over)",
+      "score": {
+        "team1": { "runs": 180, "wickets": 8, "overs": 20.0 },
+        "team2": { "runs": 180, "wickets": 7, "overs": 20.0 }
+      },
+      "player_stats": [
+        { "player_id": "ENG01", "match_id": "1002", "runs": 60, "wickets": 0 },
+        { "player_id": "ENG02", "match_id": "1002", "runs": 40, "wickets": 1 },
+        { "player_id": "ENG03", "match_id": "1002", "runs": 10, "wickets": 2 },
+        { "player_id": "PAK01", "match_id": "1002", "runs": 75, "wickets": 0 },
+        { "player_id": "PAK02", "match_id": "1002", "runs": 5, "wickets": 3 },
+        { "player_id": "PAK03", "match_id": "1002", "runs": 30, "wickets": 0 }
+      ]
+    }
+  ]
+}
