@@ -5,7 +5,7 @@ It integrates cricket match data (sample JSON or live API), stores it in a datab
 
 ---
 
-## 🚀 Features
+## Features
 - 🌐 API integration (Cricbuzz/unofficial JSON or sample dataset)
 - 🗄️ SQLite database backend
 - 📊 Streamlit multi-page dashboard:
@@ -20,7 +20,7 @@ It integrates cricket match data (sample JSON or live API), stores it in a datab
 - 📦 Deployable on Streamlit Cloud / Render
 
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Home Page
 ![Home Page](screenshots/Home.png)
@@ -34,7 +34,7 @@ It integrates cricket match data (sample JSON or live API), stores it in a datab
 ### Visualizations
 ![Visualizations](screenshots/Visualizations.png)
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Python 3.12** (pandas, sqlite3, SQLAlchemy, requests)
 - **Streamlit** (for the web app)
 - **SQLite** (lightweight database)
@@ -45,7 +45,7 @@ It integrates cricket match data (sample JSON or live API), stores it in a datab
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 cricbuzz-livestats/
 │
@@ -72,7 +72,7 @@ cricbuzz-livestats/
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 ```bash
 
@@ -88,7 +88,7 @@ streamlit run streamlit\_app.py
 
 ```
 
-📊 Features
+## Description
 
 •	Home Page → Navigation + Project overview
 •	Matches & Players Pages → Explore raw data
@@ -97,21 +97,21 @@ streamlit run streamlit\_app.py
 •	CRUD Pages → Add, update, delete records
 •	Analytics Overview → Leaderboards, KPIs, trends
 
-🎓 Use Cases
+## Use Cases
 
 •	Sports Media & Broadcasting
 •	Fantasy Cricket Platforms
 •	Cricket Analytics Firms
 •	Educational SQL Projects
 
-📌 Credits
+## Credits
 
 •	Mock data created for portfolio purposes
 •	Inspired by Cricbuzz APIs and community-built cricket datasets
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 Ritu Thakur
 Data Analyst | SQL • Power BI • Python • Streamlit
 
