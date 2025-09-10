@@ -60,29 +60,33 @@ It integrates cricket match data (sample JSON or live API), stores it in a datab
 
 ## Project Structure
 
+```
 cricbuzz-livestats/
 │
-├── streamlit_app.py # Entry point for Streamlit
+├── streamlit_app.py # Main entry point
 ├── logo.png # App logo
-├── requirements.txt
-├── README.md
-├── sample_cricket_data.json # Mock data
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
+├── cricket.db # SQLite database (generated)
+├── sample_cricket_data.json # Mock cricket data
 │
 ├── utils/
-│ ├── create_db.py # Create & populate DB from JSON
+│ ├── create_db.py # Script to create & populate DB
 │ └── db_connection.py # Centralized DB functions
 │
 ├── pages/
 │ ├── 1_Home.py
 │ ├── 2_Matches.py
 │ ├── 3_Players.py
-│ ├── 4_Scores.py
-│ ├── 5_SQL_Queries.py
-│ ├── 6_CRUD.py
-│ ├── 7_Matches_CRUD.py
-│ ├── 8_Scores_CRUD.py
-│ └── 9_Visualizations.py
+│ ├── 4_SQL_Queries.py
+│ ├── 5_CRUD.py
+│ ├── 6_Matches_CRUD.py
+│ ├── 7_Scores_CRUD.py
+│ ├── 8_Visualizations.py
+│ └── 9_Analytics_Overview.py
 
+
+```
 ---
 
 ## Run the App
@@ -104,22 +108,31 @@ streamlit run streamlit\_app.py
 ## Description
 
 •	Home Page → Navigation + Project overview
+
 •	Matches & Players Pages → Explore raw data
+
 •	Scorecards & Visuals → Runs, wickets, comparisons
+
 •	SQL Queries Page → 25 beginner → advanced queries + custom query box
+
 •	CRUD Pages → Add, update, delete records
+
 •	Analytics Overview → Leaderboards, KPIs, trends
 
 ## Use Cases
 
 •	Sports Media & Broadcasting
+
 •	Fantasy Cricket Platforms
+
 •	Cricket Analytics Firms
+
 •	Educational SQL Projects
 
 ## Credits
 
 •	Mock data created for portfolio purposes
+
 •	Inspired by Cricbuzz APIs and community-built cricket datasets
 
 ---
@@ -129,4 +142,5 @@ Ritu Thakur
 Data Analyst | SQL • Power BI • Python • Streamlit
 
 📍 Hyderabad, India
+
 📧 ritut452@gmail.com
