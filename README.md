@@ -19,33 +19,29 @@ It integrates cricket match data (sample JSON or live API), stores it in a datab
     ![Matches Page](screenshots/Matches.png)
 
   - Players
-    ![Players Page](screenshots/Players.png)
     
-  - Scorecards
-  - SQL Queries (25 beginner–advanced questions)
+    ![Players Page](screenshots/Players.png)
+
+  - Scorecards
+    
+    ![Scores](screenshots/Scores.png)
+
+  - SQL Queries (25 beginner–advanced questions)
+  
     ![SQL Queries](screenshots/SQL_Queries.png)
-  - CRUD operations
-  - Visualizations (team, players, runs, wickets)
+
+  - CRUD operations
+  
+    ![CRUD](screenshots/CRUD.png)
+  
+  - Visualizations (team, players, runs, wickets)
+  
     ![Visualizations](screenshots/Visualizations.png)
 
 - 🔍 Custom SQL query interface
 - 📤 Export data to CSV
 - 📦 Deployable on Streamlit Cloud / Render
 
-
-## Screenshots
-
-### Home Page
-![Home Page](screenshots/Home.png)
-
-### Matches Overview
-![Matches Page](screenshots/Matches.png)
-
-### SQL Queries
-![SQL Queries](screenshots/SQL_Queries.png)
-
-### Visualizations
-![Visualizations](screenshots/Visualizations.png)
 
 ## Tech Stack
 - **Python 3.12** (pandas, sqlite3, SQLAlchemy, requests)
