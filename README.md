@@ -1,6 +1,6 @@
 # 🏏 Cricbuzz LiveStats: Real-Time Cricket Insights & SQL Analytics
 
-[**Live Demo App**](https://rituthakur-29-cricbuzz-livestats.streamlit.app)  
+[**Live Demo App**](https://cricbuzz-livestats.streamlit.app/)
 
 An interactive multi-page cricket analytics dashboard built with **Python, SQLite, and Streamlit**.
 It integrates cricket match data (sample JSON or live API), stores it in a database, and provides live dashboards, visualizations, and SQL query practice.
